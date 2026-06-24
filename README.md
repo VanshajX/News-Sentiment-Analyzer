@@ -68,58 +68,8 @@ news-sentiment-analyzer/
 └── README.md
 ```
 
----
 
-## 🚀 Getting Started
 
-### Prerequisites
 
-- **Node.js** (v18.0.0 or higher)
-- **npm** (v9.0.0 or higher)
 
-### Installation
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/news-sentiment-analyzer.git
-   cd news-sentiment-analyzer
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**:
-   ```bash
-   npm run dev
-   ```
-   Open your browser and navigate to `http://localhost:5173` (or the port specified in terminal).
-
-4. **Build for production**:
-   ```bash
-   npm run build
-   ```
-
----
-
-## ⚙️ Configuration & API Integration
-
-Out of the box, the app runs in **Offline / Local Demo Mode** which requires no configuration or API keys. If you want to configure real-time feeds:
-
-1. Click the **Settings Gear** icon in the sidebar.
-2. Obtain a free API key from [NewsAPI.org](https://newsapi.org/) and enter it in the **NewsAPI Key** field.
-3. Optionally, get an API key from Google AI Studio for [Gemini API](https://aistudio.google.com/) and paste it to enable advanced summary and semantic analytics.
-4. Toggle **Live Mode** to fetch live headlines.
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👨‍💻 Created by
-
-* **Your Name** - *Initial Work* - [GitHub Profile](https://github.com/your-username)
